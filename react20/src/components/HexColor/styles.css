@@ -1,0 +1,12 @@
+.buttons button{
+    padding: 10px;
+    font-size: large;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+.content{
+    font-size: 5rem;
+    text-decoration: underline;
+}
