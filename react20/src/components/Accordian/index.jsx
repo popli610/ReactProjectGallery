@@ -7,7 +7,6 @@ const Accordian = () => {
   const [enableMultipleSelection, setEnableMultipleSelection] = useState(false);
   const [multiple, setMultiple] = useState([]);
 
-  const multipleAcc = () => {};
   const handleOpen = (currentId) => {
     setSelected(selected === currentId ? null : currentId);
   };

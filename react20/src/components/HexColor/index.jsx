@@ -8,7 +8,6 @@ const HexColor = () => {
   const randomHexNumber = () => {
     return all.charAt(Math.floor(Math.random() * all.length));
   };
-  useEffect(()=>{createRandomColor()}, [typeColor]);
   const createRandomColor = () => {
     if (typeColor === "rgb") {
       setColor(
@@ -22,7 +21,8 @@ const HexColor = () => {
       );
     }
   };
-
+  
+  useEffect(()=>{createRandomColor()}, [typeColor]);
   const createHex = () => {
     setTypeColor("hex");
   };
