@@ -1,0 +1,27 @@
+.qrcode-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.qrcode-input{
+    padding:10px;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.qr-button{
+    margin-left: 5px;
+    font-size: large;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.disable{
+    border: 2px solid rgb(176, 165, 165);
+    border-radius: 10px;
+    cursor:default
+}
